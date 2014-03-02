@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Quaduino : Arduino, Quadcopter" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Quaduino</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/sonicyang/Quaduino">View on GitHub</a>
+
+          <h1 id="project_title">Quaduino</h1>
+          <h2 id="project_tagline">Arduino, Quadcopter</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/sonicyang/Quaduino/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/sonicyang/Quaduino/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="quaduino" class="anchor" href="#quaduino"><span class="octicon octicon-link"></span></a>Quaduino</h1>
+
+<hr><p>This is the code of a quadcopter, and its RemoteController.
+I develope those during my homebrew quadcopter build.
+Both of the on board and hand-held controllers use Arduino Uno Board as controller.</p>
+
+<p>Setting of the quad is + mode and use PID controller for Pitch,Roll angular rate control.
+And a PD controller for Pitch,Roll angular position control.</p>
+
+<p>This code should work on any hardware, only needed is arduino, modules, and some tweaking about PID gain.</p>
+
+<h2>
+<a name="list-of-modules-i-am-using" class="anchor" href="#list-of-modules-i-am-using"><span class="octicon octicon-link"></span></a>List of modules I am using:</h2>
+
+<p>...nRf24L01+
+...MPU6500</p>
+
+<h2>
+<a name="list-of-library-i-am-using" class="anchor" href="#list-of-library-i-am-using"><span class="octicon octicon-link"></span></a>List of Library I am using:</h2>
+
+<p>...RF24 -- <a href="https://github.com/maniacbug/RF24">https://github.com/maniacbug/RF24</a>
+...i2cdevlib -- <a href="https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050">https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050</a></p>
+
+<h2>
+<a name="sample-photo-of-quad-my-homebrew-build" class="anchor" href="#sample-photo-of-quad-my-homebrew-build"><span class="octicon octicon-link"></span></a>Sample Photo of Quad, my homebrew build</h2>
+
+<h2>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>TODO:</h2>
+
+<p>Implement yaw rate controller.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Quaduino maintained by <a href="https://github.com/sonicyang">sonicyang</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
