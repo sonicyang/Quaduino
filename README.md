@@ -23,4 +23,5 @@ And a PD controller for Pitch,Roll angular position control.
 
 TODO:
   Implement yaw rate controller.
-  
+ 
+lolz 
